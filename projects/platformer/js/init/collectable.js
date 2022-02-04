@@ -35,13 +35,19 @@
 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        createCollectable(type.steve, 200, 170, 6, 0.7)
-        createCollectable(type.db, 230, 230, 6, 0.7)
-        createCollectable(type.max, 220, 180, 6, 0.7)
-        createCollectable(type.grace, 240, 220, 6, 0.8)
-        createCollectable(type.kennedie, 260, 240, 10, 1)
+        createCollectable(type.db, 600, 625)
+        createCollectable(type.max, 400, 425)
+        createCollectable(type.steve, 750, 275, 6, 1)
+        createCollectable(type.grace, 200, 140, 6, 0.3)
+        createCollectable(type.kennedi, 700, 50)
+        createCollectable(type.db, 300, 430)
+        createCollectable(type.db, 200, 500)
+        createCollectable(type.db, 400, 500)
+        createCollectable(type.db, 200, 50)
+        createCollectable(type.db, 615, 350)
+        createCollectable(type.kennedi, 870, 550)
         // example: 
-        createCollectable(type.steve, 200, 170, 6, 0.7);
+        //createCollectable(type.steve, 200, 170, 6, 0.7);
         
         
         
