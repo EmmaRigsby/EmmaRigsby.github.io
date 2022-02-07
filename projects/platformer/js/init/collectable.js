@@ -35,7 +35,7 @@
 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        createCollectable(type.db, 600, 625)
+        createCollectable(type.db, 650, 625)
         createCollectable(type.max, 400, 425)
         createCollectable(type.steve, 750, 275, 6, 1)
         createCollectable(type.grace, 200, 140, 6, 0.3)
