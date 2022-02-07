@@ -40,7 +40,7 @@
         createPlatform(750, 350, 0.3)
         createPlatform(615, 400, 0.3)
         createPlatform(50, 100, 0.3)
-        createPlatform(800, 275, 0.1, 14)
+        createPlatform(800, 450, 0.1, 14)
         
         /*
          * ground : here, we create a floor. Given the width of of the platform 
