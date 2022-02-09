@@ -46,7 +46,7 @@
             main {
                 background: rgb(236, 217, 163);
                 display: flex;
-                border-radius: 30px;
+                border-radius: 20px;
             }
             .sidebar {
                 margin-right: 25px;
@@ -54,7 +54,7 @@
             }
             .sidebar-img {
                 width: 200px;
-                border-radius: 30px;
+                border-radius: 10px;
             }
             .content {
                 flex: 1;
@@ -65,11 +65,15 @@
                 border-color:rgb(253, 255, 141);
                 padding: 8px;
                 background-color:rgb(253, 255, 141);
-                border-radius: 30px;
+                border-radius:10px
             }
             h2, h3 {
                 margin: 0px;
             }
+            #extras {
+                margin-top:10px;
+            }
+            
          </style>
     </head>
     
@@ -85,7 +89,17 @@
             <main>
                 <!-- Sidebar section -->
                 <div class="sidebar">
+                    <div> <img class="sidebar-img" src="img/namedesign.jpg" alt=""></div>
                     <img class="sidebar-img" src="img/self-portrait.jpg" alt="My art!">
+                    <div id="interests">
+                        <h3>A Little Bit About Me</h3>
+                        <ul>
+                            <li>Creative</li>
+                            <li>Optimistic</li>
+                            <li>Nerdy</li>
+                        </ul>
+                        
+                    </div>
                 </div>
                  <!-- Content section -->
                 <div class="content">
@@ -99,7 +113,18 @@
                             <li>Drawing</li>
                             <li>Gaming</li>
                         </ul>
-                    </div>
+                </div>
+                    <!-- Extras -->
+                <div id="extras">
+                        <h2>Hi! I'm Emma Rigsby, and this is a little about me!</h2>
+                        <p> I draw sometimes, and the picture you see to the left is some of the art I did! If you wish to find my art on any social medias, you can find me @Fantasm_Arts on most social medias! I draw some fan-art but also some original art.</p>
+                        <div>
+                            <p>I also play games, such as Genshin Impact, which I draw fan-art for quite often.</p>
+                        </div>
+                        <div>
+                            <p>I am also in the school marching band, and play the clarinet. Along with this, I am enrolled in the school's Talented Visual Arts program, TVA for short.</p>
+                        </div>
+                </div>
                 </div>
             </main>
         </div>
