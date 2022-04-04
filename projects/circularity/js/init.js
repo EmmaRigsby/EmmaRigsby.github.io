@@ -74,10 +74,10 @@ var init = function (window) {
 
 
             // TODO 9 : Iterate over the array
-            for (var i = 0; i < circles.length ; i++) {
+            for (var i = 0; i < circles.length; i++) {
                 var eachCircle = circles[i]
                 physikz.updatePosition(eachCircle)
-                game.checkCirclePosition(eachCircle)
+                game.checkCirclePosition(circles[i]) // correct or you can reference the variable you created on line 78
                 
              }
            
@@ -96,14 +96,14 @@ var init = function (window) {
             if ( circle.x > canvas.width ) {
                 circle.x = 0;
             }
-            if ( circle.x < canvas.width ) {
-                circle.x = 0;
+            if (circle.x < 0) { 
+                circle.x = canvas.width 
             }
-            if ( circle.y > canvas.height ) {
+            if (circle.y > canvas.height){
                 circle.y = 0;
             }
-            if ( circle.y < canvas.height ) {
-                circle.y = 0;
+            if (circle.y < 0){ 
+                circle.y = canvas.height 
             }
             
             // TODO 7 : YOUR CODE STARTS HERE //////////////////////
